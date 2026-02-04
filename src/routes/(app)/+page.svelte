@@ -3,6 +3,7 @@
 	import AboutUs from "@/partials/home/AboutUs.svelte";
 	import Contact from "@/partials/home/Contact.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
+	import TrustedBy from "@/partials/home/TrustedBy.svelte";
 	import VisiMisi from "@/partials/home/VisiMisi.svelte";
 </script>
 
@@ -14,5 +15,6 @@
   <Jumbotron />
   <AboutUs />
   <VisiMisi />
+  <TrustedBy />
   <Contact />
 </div>

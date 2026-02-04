@@ -10,17 +10,17 @@
   const year = getAcademicYear();
 </script>
 
-<div class="w-full h-auto bg-jhc-2 text-white py-28">
+<div class="w-full h-auto bg-jhc-2 text-white py-28" id="kontak">
   <div class="container max-w-6xl mx-auto flex flex-col gap-6 justify-center items-center">
     <h3 class="text-5xl text-center leading-14 font-bold">Siap Menuju <span class="text-jhc-orange">Sertifikasi</span> <br/> <span class="text-jhc-orange">Halal {year}?</span></h3>
     <p class="font-light text-lg w-9/12 text-center">Amankan izin edar dan kepatuhan halal produk Anda sebelum batas wajib 2026. Tim ahli kami siap mendampingi Anda sekarang</p>
     <div class="flex flex-row gap-4 font-medium mt-9">
-      <button class="bg-jhc-orange text-jhc py-3 px-7 rounded-full cursor-pointer hover:bg-jhc-orange/90 shadow-2xl border border-jhc-orange">
+      <a href="https://wa.me/6281322482220" target="_blank" class="bg-jhc-orange text-jhc py-3 px-7 rounded-full cursor-pointer hover:bg-jhc-orange/90 shadow-2xl border border-jhc-orange">
         Daftar Sertifikasi Sekarang
-      </button>
-      <button class="text-white py-3 px-7 rounded-full cursor-pointer shadow-2xl border border-white hover:bg-white/10">
+      </a>
+      <a href="https://wa.me/6281322482220" target="_blank" class="text-white py-3 px-7 rounded-full cursor-pointer shadow-2xl border border-white hover:bg-white/10">
         Konsultasi Gratis
-      </button>
+      </a>
     </div>
   </div>
 </div>

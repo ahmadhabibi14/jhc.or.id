@@ -11,7 +11,7 @@
           <div class="w-fit h-fit py-1 px-3 text-jhc flex flex-row gap-2 items-center justify-center bg-white rounded-full">
             <Icon
               src={RiSystemCheckboxCircleFill}
-              size="16"
+              size="18"
               className="text-jhc fill-jhc"
             />
             <span>Jasa Sertifikasi Halal Terpercaya</span>
@@ -19,12 +19,12 @@
           <h1 class="text-6xl font-bold text-jhc leading-16">Sertifikasi Halal <br /> <span class="text-jhc-orange">Presisi & Terarah</span></h1>
           <p>Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
           <div class="flex flex-row gap-4">
-            <button class="py-2 px-6 rounded-full bg-jhc hover:bg-jhc-2 text-white cursor-pointer border border-jhc">
+            <a href="https://wa.me/6281322482220" target="_blank" class="py-2 px-6 rounded-full bg-jhc hover:bg-jhc-2 text-white cursor-pointer border border-jhc">
               Daftar Sekarang
-            </button>
-            <button class="py-2 px-6 rounded-full bg-white hover:bg-gray-100 cursor-pointer border border-jhc">
+            </a>
+            <a href="https://wa.me/6281322482220" target="_blank" class="py-2 px-6 rounded-full bg-white hover:bg-gray-100 cursor-pointer border border-jhc">
               Digitalisasi Dokumen
-            </button>
+            </a>
           </div>
         </div>
         <div class="w-96 h-auto">
