@@ -18,7 +18,7 @@
         <div class="flex flex-row gap-1.5 items-center" role="navigation">
           <a
             aria-label="Instagram"
-            href="https://www.instagram.com/jhcproduction"
+            href="https://www.instagram.com/jayakartahalalcenter"
             target="_blank"
             class="flex justify-center items-center p-2 bg-linear-to-bl from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white rounded-full"
           >

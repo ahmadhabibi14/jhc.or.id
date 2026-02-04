@@ -54,100 +54,49 @@
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@graph": [
+			"@type": ["Organization"],
+			"@id": "https://jhc.or.id/#organization",
+			"name": "Jayakarta Halal Center",
+			"url": "https://jhc.or.id",
+			"description": "Jasa sertifikasi halal resmi dan terpercaya di Jakarta Timur",
+			"image": "https://jhc.or.id/img/preview.jpg",
+			"telephone": "+6281322482220",
+			"priceRange": "$$",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Jl. Assyafi'iyah No.247, RT.3/RW.5, Cilangkap, Kec. Cipayung, Jakarta Timur, DKI Jakarta. 13870",
+				"addressLocality": "Cipayung",
+				"addressSubregion": "Jakarta Timur",
+				"addressRegion": "DKI Jakarta",
+				"postalCode": "13870",
+				"addressCountry": "ID"
+			},
+			"openingHoursSpecification": [
 				{
-					"@type": ["Person", "Organization"],
-					"@id": "https://jhc.or.id/#person",
-					"name": "Prima Halal Cendekia",
-					"logo": {
-						"@type": "ImageObject",
-						"@id": "https://jhc.or.id/#logo",
-						"url": "https://jhc.or.id/wp-content/uploads/2026/01/logo-prima-halal-cendekia-removebg-preview.png",
-						"contentUrl": "https://jhc.or.id/wp-content/uploads/2026/01/logo-prima-halal-cendekia-removebg-preview.png",
-						"caption": "Prima Halal Cendekia",
-						"inLanguage": "en-US",
-						"width": "1046",
-						"height": "238"
-					},
-					"image": {
-						"@type": "ImageObject",
-						"@id": "https://jhc.or.id/#logo",
-						"url": "https://jhc.or.id/wp-content/uploads/2026/01/logo-prima-halal-cendekia-removebg-preview.png",
-						"contentUrl": "https://jhc.or.id/wp-content/uploads/2026/01/logo-prima-halal-cendekia-removebg-preview.png",
-						"caption": "Prima Halal Cendekia",
-						"inLanguage": "en-US",
-						"width": "1046",
-						"height": "238"
-					}
-				},
-				{
-					"@type": "WebSite",
-					"@id": "https://jhc.or.id/#website",
-					"url": "https://jhc.or.id",
-					"name": "Prima Halal Cendekia",
-					"alternateName": "Prima Halal Cendekia",
-					"publisher": { "@id": "https://jhc.or.id/#person" },
-					"inLanguage": "en-US",
-					"potentialAction": {
-						"@type": "SearchAction",
-						"target": "https://jhc.or.id/?s={search_term_string}",
-						"query-input": "required name=search_term_string"
-					}
-				},
-				{
-					"@type": "ImageObject",
-					"@id": "https://jhc.or.id/wp-content/uploads/2026/02/Sertifikasi-Halal-MBG-SPPG-Prima-Halal-Cendekia-1024x576.webp",
-					"url": "https://jhc.or.id/wp-content/uploads/2026/02/Sertifikasi-Halal-MBG-SPPG-Prima-Halal-Cendekia-1024x576.webp",
-					"width": "200",
-					"height": "200",
-					"inLanguage": "en-US"
-				},
-				{
-					"@type": "WebPage",
-					"@id": "https://jhc.or.id/#webpage",
-					"url": "https://jhc.or.id/",
-					"name": "Jasa Sertifikasi Halal Resmi &amp; Terpercaya - Prima Halal Cendekia",
-					"datePublished": "2026-01-20T18:18:37-07:00",
-					"dateModified": "2026-02-01T07:06:16-07:00",
-					"about": { "@id": "https://jhc.or.id/#person" },
-					"isPartOf": { "@id": "https://jhc.or.id/#website" },
-					"primaryImageOfPage": {
-						"@id": "https://jhc.or.id/wp-content/uploads/2026/02/Sertifikasi-Halal-MBG-SPPG-Prima-Halal-Cendekia-1024x576.webp"
-					},
-					"inLanguage": "en-US"
-				},
-				{
-					"@type": "Person",
-					"@id": "https://jhc.or.id/#author",
-					"name": "admin",
-					"image": {
-						"@type": "ImageObject",
-						"@id": "https://secure.gravatar.com/avatar/5a722d9d524897978c0607ccefcc5c46fb84f7daa7db7c9d1f5e0c856ae96cd4?s=96&amp;d=mm&amp;r=g",
-						"url": "https://secure.gravatar.com/avatar/5a722d9d524897978c0607ccefcc5c46fb84f7daa7db7c9d1f5e0c856ae96cd4?s=96&amp;d=mm&amp;r=g",
-						"caption": "admin",
-						"inLanguage": "en-US"
-					},
-					"sameAs": ["https://jhc.or.id"]
-				},
-				{
-					"@type": "Article",
-					"headline": "Jasa Sertifikasi Halal Resmi &amp; Terpercaya - Prima Halal Cendekia",
-					"keywords": "Jasa Sertifikasi Halal,Buat Sertifikat Halal,Konsultan Halal,Sertifikasi Halal UMKM,Sertifikasi Halal Restoran,Sertifikasi Halal Katering,Penyelia Halal,Prima Halal Cendekia",
-					"datePublished": "2026-01-20T18:18:37-07:00",
-					"dateModified": "2026-02-01T07:06:16-07:00",
-					"author": { "@id": "https://jhc.or.id/#author", "name": "admin" },
-					"publisher": { "@id": "https://jhc.or.id/#person" },
-					"description": "Konsultan Jasa Sertifikasi Halal resmi BPJPH &amp; MUI. Layanan cepat &amp; full pendampingan untuk UMKM, Katering, Restoran, Industri, dan Dapur MBG. Jaminan terbit sertifikat.",
-					"name": "Jasa Sertifikasi Halal Resmi &amp; Terpercaya - Prima Halal Cendekia",
-					"@id": "https://jhc.or.id/#richSnippet",
-					"isPartOf": { "@id": "https://jhc.or.id/#webpage" },
-					"image": {
-						"@id": "https://jhc.or.id/wp-content/uploads/2026/02/Sertifikasi-Halal-MBG-SPPG-Prima-Halal-Cendekia-1024x576.webp"
-					},
-					"inLanguage": "en-US",
-					"mainEntityOfPage": { "@id": "https://jhc.or.id/#webpage" }
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday",
+						"Saturday",
+						"Sunday"
+					],
+					"opens": "07:00",
+					"closes": "21:00"
 				}
-			]
+			],
+			"sameAs": ["https://www.instagram.com/jayakartahalalcenter", "https://wa.me/6281322482220"],
+			"areaServed": {
+				"@type": "AdministrativeArea",
+				"name": "Jakarta"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "-6.333851",
+				"longitude": "106.902487"
+			}
 		}
 	</script>
 </svelte:head>
