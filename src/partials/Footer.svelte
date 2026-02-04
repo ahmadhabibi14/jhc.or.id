@@ -29,7 +29,7 @@
           </a>
           <a
             aria-label="Facebook"
-            href="https://www.facebook.com/jhc.audiopro"
+            href="https://www.facebook.com/jayakartahalalcenter"
             target="_blank"
             class="flex justify-center items-center p-2 bg-linear-to-b from-[#00c6ff] to-[#0072ff] text-white rounded-full"
           >
@@ -40,7 +40,7 @@
           </a>
           <a
             aria-label="WhatsApp"
-            href="https://wa.me/6282146021999"
+            href="https://wa.me/6281322482220"
             target="_blank"
             class="flex justify-center items-center p-2 bg-linear-to-b from-[#25d366] to-[#2BB741] text-white rounded-full"
           >
@@ -64,15 +64,17 @@
       <div class="flex flex-col gap-3 mt-4">
         <h4 class="text-lg text-white font-semibold">Contact</h4>
         <div class="flex flex-col gap-1">
-          <div class="flex flex-row gap-2 items-start">
+          <a href="https://maps.app.goo.gl/D5JcyKYwyHBXSkWc6" target="_blank"
+          class="flex flex-row gap-2 items-start hover:underline hover:text-jhc-light">
             <Icon size="20" className="text-jhc-orange fill-jhc-orange shrink-0" src={RiMapMapPinRangeLine} />
-            <p class="grow">Jl. Assyafi’iyah No.247, RT.3/RW.5, Cilangkap, Kec. Cipayung, Jakarta Timur, DKI Jakarta. 13870</p>
-          </div>
-          <a href="mailto:jayakartahalalcenter@gmail.com" class="flex flex-row gap-2 items-center">
+            <p class="grow">Jl. Assyafi'iyah No.247, RT.3/RW.5, Cilangkap, Kec. Cipayung, Jakarta Timur, DKI Jakarta. 13870</p>
+          </a>
+          <a href="mailto:jayakartahalalcenter@gmail.com" target="_blank"
+          class="flex flex-row gap-2 items-center hover:underline hover:text-jhc-light">
             <Icon size="20" className="text-jhc-orange fill-jhc-orange shrink-0" src={RiBusinessMailLine} />
             <p class="grow">jayakartahalalcenter@gmail.com</p>
           </a>
-          <a href="tel:+6282146021999" class="flex flex-row gap-2 items-center">
+          <a href="tel:+6282146021999" class="flex flex-row gap-2 items-center hover:underline hover:text-jhc-light">
             <Icon size="20" className="text-jhc-orange fill-jhc-orange shrink-0" src={RiDevicePhoneLine} />
             <p class="grow">(+62) 813-2248-2220</p>
           </a>
