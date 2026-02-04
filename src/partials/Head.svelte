@@ -58,7 +58,7 @@
 			"@id": "https://jhc.or.id/#organization",
 			"name": "Jayakarta Halal Center",
 			"url": "https://jhc.or.id",
-			"description": "Jasa sertifikasi halal resmi dan terpercaya di Jakarta Timur",
+			"description": "Jasa Konsultan dan Sertifikasi Halal Resmi & Terpercaya. Berfokus pada pendampingan, edukasi, dan penguatan ekosistem halal di Indonesia.",
 			"image": "https://jhc.or.id/img/preview.jpg",
 			"telephone": "+6281322482220",
 			"priceRange": "$$",
