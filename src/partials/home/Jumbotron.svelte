@@ -22,7 +22,7 @@
             <span>Jasa Sertifikasi Halal Terpercaya</span>
           </div>
           <h1 class="text-3xl md:text-5xl font-bold text-jhc md:leading-12">Solusi Halal Brand <br /> <span class="text-jhc-orange">Handal, Cepat, Legal</span></h1>
-          <p class="w-10/12">Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
+          <p class="md:w-10/12 w-full">Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
           <div class="flex flex-col md:flex-row gap-4">
             <a href="https://wa.me/6281322482220" target="_blank" class="w-fit py-2 px-6 rounded-full bg-jhc hover:bg-jhc-2 text-white cursor-pointer border border-jhc">
               Daftar Sekarang
