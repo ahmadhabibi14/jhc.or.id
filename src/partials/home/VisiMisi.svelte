@@ -4,7 +4,7 @@
 	import MisiItem from "./MisiItem.svelte";
 </script>
 
-<div class="container max-w-6xl mx-auto my-7" id="visi-misi">
+<section class="container max-w-6xl mx-auto my-14" id="visi-misi">
   <div class="grid grid-cols-2 gap-10">
     <div class="flex flex-row items-start gap-6">
       <div class="flex justify-center items-center p-3 rounded-md bg-jhc-light text-jhc">
@@ -48,4 +48,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

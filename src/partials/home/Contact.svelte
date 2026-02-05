@@ -10,7 +10,7 @@
   const year = getAcademicYear();
 </script>
 
-<div class="w-full h-auto bg-jhc-2 text-white py-28" id="kontak">
+<section class="w-full h-auto bg-jhc-2 text-white py-28" id="kontak">
   <div class="container max-w-6xl mx-auto flex flex-col gap-6 justify-center items-center">
     <h3 class="text-5xl text-center leading-14 font-bold">Siap Menuju <span class="text-jhc-orange">Sertifikasi</span> <br/> <span class="text-jhc-orange">Halal {year}?</span></h3>
     <p class="font-light text-lg w-9/12 text-center">Amankan izin edar dan kepatuhan halal produk Anda sebelum batas wajib 2026. Tim ahli kami siap mendampingi Anda sekarang</p>
@@ -23,4 +23,4 @@
       </a>
     </div>
   </div>
-</div>
+</section>

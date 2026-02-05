@@ -1,13 +1,18 @@
 <script lang="ts">
 	import { Icon } from "svelte-icons-pack";
 	import { RiSystemCheckboxCircleFill } from "svelte-icons-pack/ri";
-
 </script>
-<div role="banner" id="jumbotron">
-  <div class="w-full min-h-[500px] z-1 bg-jhc-light flex">
-    <div class="container max-w-6xl mx-auto">
+
+<section role="banner" id="jumbotron">
+  <div class="w-full z-1 bg-jhc-light flex">
+    <div class="container max-w-6xl mx-auto pt-10">
       <div class="grid grid-cols-[60%_1fr] gap-10 items-center h-full">
-        <div class="flex flex-col gap-4">
+        <div class="flex flex-col gap-4 relative">
+          <img
+            src="/icons/duo-quotes.svg"
+            alt=""
+            class="absolute -left-[16%] top-10 w-24 h-auto"
+          />
           <div class="w-fit h-fit py-1 px-3 text-jhc flex flex-row gap-2 items-center justify-center bg-white rounded-full">
             <Icon
               src={RiSystemCheckboxCircleFill}
@@ -16,8 +21,8 @@
             />
             <span>Jasa Sertifikasi Halal Terpercaya</span>
           </div>
-          <h1 class="text-6xl font-bold text-jhc leading-16">Sertifikasi Halal <br /> <span class="text-jhc-orange">Presisi & Terarah</span></h1>
-          <p>Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
+          <h1 class="text-6xl font-bold text-jhc leading-16">Solusi Halal Brand <br /> <span class="text-jhc-orange">Handal, Cepat, Legal</span></h1>
+          <p class="w-10/12">Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
           <div class="flex flex-row gap-4">
             <a href="https://wa.me/6281322482220" target="_blank" class="py-2 px-6 rounded-full bg-jhc hover:bg-jhc-2 text-white cursor-pointer border border-jhc">
               Daftar Sekarang
@@ -45,4 +50,4 @@
     >
     </path>
   </svg>
-</div>
+</section>

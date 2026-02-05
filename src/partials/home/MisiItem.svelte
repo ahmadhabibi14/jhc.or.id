@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Icon } from "svelte-icons-pack";
-	import { FiPlusSquare } from "svelte-icons-pack/fi";
+	import { FiPlusSquare, FiMinusSquare } from "svelte-icons-pack/fi";
 
   export let title: string = '';
   export let desc: string = '';
@@ -11,7 +11,7 @@
 <div class="flex flex-row items-start gap-3">
   <button class="cursor-pointer mt-1" onclick={() => isShowDesc = !isShowDesc}>
     <Icon
-      src={FiPlusSquare}
+      src={isShowDesc ?  FiMinusSquare : FiPlusSquare}
       size="18"
       className=""
     />

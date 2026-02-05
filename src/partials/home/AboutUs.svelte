@@ -3,7 +3,7 @@
 	import { RiCommunicationChatSmile2Fill } from "svelte-icons-pack/ri";
 </script>
 
-<div class="container max-w-6xl mx-auto" id="tentang">
+<section class="container max-w-6xl mx-auto" id="tentang">
   <div class="flex flex-col gap-5">
     <div class="text-sm bg-jhc-light border border-jhc text-jhc font-medium flex flex-row items-center gap-2 w-fit rounded-full py-1.5 px-4">
       <Icon
@@ -52,4 +52,4 @@
       </div>
     </div>
   </div>
-</div>
+</section>

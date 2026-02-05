@@ -1,9 +1,9 @@
 <script>
 	import { Icon } from "svelte-icons-pack";
 	import { RiSystemCheckboxCircleFill } from "svelte-icons-pack/ri";
-
 </script>
-<div class="container max-w-6xl mx-auto my-7" id="dipercaya">
+
+<section class="container max-w-6xl mx-auto my-16" id="dipercaya">
   <div class="flex flex-col gap-10">
     <div class="flex flex-col gap-2 text-center justify-center items-center">
       <span class="text-jhc-orange text-xl font-medium">Sertifikasi Resmi Melalui</span>
@@ -48,7 +48,7 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <style>
   .bpjhp-container {

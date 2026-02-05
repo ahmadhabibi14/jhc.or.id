@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="139.409mm" height="90.823mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 5434 3540"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+   <clipPath id="id0">
+    <path d="M5213 478l221 1411 -3026 0 -220 -1411 3025 0z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M4693 3540l-2471 0 -236 -1503 2471 0 236 1503z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M0 0l1823 0 289 1849 -1823 0 -289 -1849z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image transform="matrix(0.0536938 -0.00840129 0.00840129 0.0536938 2167.98 352.401)" x="0" y="0" width="55003" height="41252" xlink:href="tampilkan FOTO_Images\tampilkan FOTO_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image x="1900" y="1653" width="2893" height="3857" xlink:href="tampilkan FOTO_Images\tampilkan FOTO_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image x="-4" y="0" width="2466" height="1849" xlink:href="tampilkan FOTO_Images\tampilkan FOTO_ImgID3.png"/>
+  </g>
+ </g>
+</svg>

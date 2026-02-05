@@ -32,7 +32,8 @@
     <nav class="hidden md:flex flex-row gap-8 items-center justify-center w-fit font-semibold">
       <a href="/" class="hover:text-jhc-orange">Beranda</a>
       <a href="/#tentang" class="hover:text-jhc-orange">Tentang Kami</a>
-      <a href="/#paket" class="hover:text-jhc-orange">Paket</a>
+      <a href="/#layanan" class="hover:text-jhc-orange">Layanan</a>
+      <a href="/#proses-halal" class="hover:text-jhc-orange">Proses Halal</a>
       <a href="/#kontak" class="hover:text-jhc-orange">Kontak</a>
     </nav>
     <a
