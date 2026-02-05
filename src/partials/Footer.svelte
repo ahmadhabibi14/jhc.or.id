@@ -55,9 +55,9 @@
         <h4 class="text-lg text-white font-semibold">Navigation</h4>
         <nav class="flex flex-col gap-1">
           <a href="/#tentang" class="hover:underline hover:text-jhc-light">Tentang Kami</a>
-          <a href="/#" class="hover:underline hover:text-jhc-light">Paket Harga</a>
-          <a href="/#" class="hover:underline hover:text-jhc-light">Syarat & Dokumen</a>
-          <a href="/#" class="hover:underline hover:text-jhc-light">Contact</a>
+          <a href="/#layanan" class="hover:underline hover:text-jhc-light">Layanan</a>
+          <a href="/#proses-halal" class="hover:underline hover:text-jhc-light">Proses Halal</a>
+          <a href="/#kontak" class="hover:underline hover:text-jhc-light">Kontak</a>
         </nav>
       </div>
 

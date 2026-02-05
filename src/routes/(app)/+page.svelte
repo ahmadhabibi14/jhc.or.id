@@ -5,6 +5,7 @@
 	import CorporateValue from "@/partials/home/CorporateValue.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
 	import Services from "@/partials/home/Services.svelte";
+	import StepHalal from "@/partials/home/StepHalal.svelte";
 	import TrustedBy from "@/partials/home/TrustedBy.svelte";
 	import VisiMisi from "@/partials/home/VisiMisi.svelte";
 </script>
@@ -20,5 +21,6 @@
   <CorporateValue />
   <TrustedBy />
   <Services />
+  <StepHalal />
   <Contact />
 </div>
