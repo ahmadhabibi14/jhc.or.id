@@ -27,20 +27,20 @@
   ]
 </script>
 
-<section class="container max-w-6xl mx-auto mb-16 mt-10" id="layanan">
+<section class="container max-w-6xl mx-auto mb-16 mt-10 md:px-0 px-5" id="layanan">
   <div class="flex flex-col gap-7">
     <div class="flex flex-col gap-2 text-center">
       <span class="text-jhc-orange text-xl font-medium">Layanan Kami</span>
       <h3 class="text-jhc font-semibold text-4xl">Positioning Jayakarta Halal Center</h3>
     </div>
 
-    <div class="grid grid-cols-2 grid-rows-2 gap-5">
+    <div class="md:grid md:grid-cols-2 md:grid-rows-2 flex flex-col gap-5">
       {#each services as s}
         <div class="flex flex-row items-start gap-4 shadow-md border border-gray-200 p-6 rounded-xl">
           <img
             src={s.img}
             alt={s.title}
-            class="w-20 h-auto shrink-0"
+            class="md:w-20 w-15 h-auto shrink-0"
           />
           <div class="grow flex flex-col gap-1">
             <h4 class="text-2xl font-semibold">{s.title}</h4>

@@ -1,4 +1,4 @@
-<section class="w-full h-auto bg-jhc text-white relative overflow-hidden" id="corporate-value">
+<section class="w-full h-auto bg-jhc text-white relative overflow-hidden md:px-0 px-5" id="corporate-value">
   <div class="container max-w-3xl mx-auto flex flex-col py-10 gap-7 relative z-10">
     <h3 class="font-yellowtail text-5xl text-center">Corporate Value</h3>
     <div class="flex flex-col gap-2 text-4xl font-semibold">
@@ -47,6 +47,6 @@
   <img
     src="/icons/mosaic-jhc.svg"
     alt="MOSAIC"
-    class="absolute w-150 h-auto -top-16 right-6 md:right-70 lg:right-100 z-0"
+    class="absolute w-150 h-auto md:-top-16 top-16 -right-24 md:right-70 lg:right-100 z-0"
   />
 </section>
