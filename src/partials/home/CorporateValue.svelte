@@ -44,12 +44,18 @@
           <p><span class="text-jhc-orange">L</span>egal</p>
         </div>
       </div>
-      <div>
+      <div class="flex flex-col gap-3">
         <img
           src="/img/pict-corp-value.png"
           alt="Corporate Value"
           class="w-full h-auto drop-shadow drop-shadow-jhc-2"
         />
+        <div class="text-xs">
+          <p>Jayakarta Halal Center (JHC) diresmikan secara langsung oleh 
+            <span class="italic font-semibold">Prof. H Anies Rasyid Baswedan SE, MPP, Ph.D</span> 
+            pada tanggal 04 Januari 2025 di Gedung Pusat Dakwah Hidayatullah, 
+            Jakarta Timur DKI Jakarta.</p>
+        </div>
       </div>
     </div>
   </div>

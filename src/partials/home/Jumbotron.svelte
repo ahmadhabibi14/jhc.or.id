@@ -6,12 +6,12 @@
 <section role="banner" id="jumbotron">
   <div class="w-full z-1 bg-jhc-light flex">
     <div class="container max-w-6xl mx-auto pt-10 pb-6 md:pb-0">
-      <div class="flex flex-col-reverse md:grid md:grid-cols-[60%_1fr] gap-10 items-center h-full px-6 md:px-0">
+      <div class="flex flex-col-reverse md:grid md:grid-cols-[1fr_auto] gap-10 items-center h-full px-6 md:px-0">
         <div class="flex flex-col gap-4 relative">
           <img
             src="/icons/duo-quotes.svg"
             alt="Quotes"
-            class="absolute -left-[13%] top-13 md:w-16 lg:w-18 h-auto lg:block hidden"
+            class="absolute -left-[13%] top-13 lg:w-14 h-auto lg:block hidden"
           />
           <div class="w-fit h-fit py-1 px-3 text-jhc flex flex-row gap-2 items-center justify-center bg-white rounded-full">
             <Icon
@@ -21,7 +21,7 @@
             />
             <span>Jasa Sertifikasi Halal Terpercaya</span>
           </div>
-          <h1 class="text-3xl md:text-6xl font-bold text-jhc md:leading-16">Solusi Halal Brand <br /> <span class="text-jhc-orange">Handal, Cepat, Legal</span></h1>
+          <h1 class="text-3xl md:text-5xl font-bold text-jhc md:leading-12">Solusi Halal Brand <br /> <span class="text-jhc-orange">Handal, Cepat, Legal</span></h1>
           <p class="w-10/12">Kami memimpin pendampingan dan pengurusan sertifikasi halal bagi UMKM, Pabrik, Hingga Instansi Nasional</p>
           <div class="flex flex-col md:flex-row gap-4">
             <a href="https://wa.me/6281322482220" target="_blank" class="w-fit py-2 px-6 rounded-full bg-jhc hover:bg-jhc-2 text-white cursor-pointer border border-jhc">
@@ -33,9 +33,9 @@
           </div>
         </div>
         <img
-          src="/img/hero.png"
+          src="/img/cert-pak-ade.png"
           alt="Hero"
-          class="w-full md:w-96 h-auto"
+          class="w-full md:w-auto h-auto md:h-100"
           fetchpriority="high"
         />
       </div>

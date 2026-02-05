@@ -22,7 +22,7 @@
       </a>
     </div>
     <nav class="hidden md:flex flex-row gap-8 items-center justify-center w-fit font-semibold">
-      <a href="/" class="hover:text-jhc-orange">Beranda</a>
+      <a href="/#top" class="hover:text-jhc-orange">Beranda</a>
       <a href="/#tentang" class="hover:text-jhc-orange">Tentang Kami</a>
       <a href="/#layanan" class="hover:text-jhc-orange">Layanan</a>
       <a href="/#proses-halal" class="hover:text-jhc-orange">Proses Halal</a>
@@ -57,7 +57,7 @@
   -translate-y-full
   ">
   <div class="flex flex-col gap-3 py-5 justify-center items-center font-medium">
-    <a href="/" class="hover:text-jhc-orange" onclick={closeMenu}>Beranda</a>
+    <a href="/#top" class="hover:text-jhc-orange" onclick={closeMenu}>Beranda</a>
     <a href="/#tentang" class="hover:text-jhc-orange" onclick={closeMenu}>Tentang Kami</a>
     <a href="/#layanan" class="hover:text-jhc-orange" onclick={closeMenu}>Layanan</a>
     <a href="/#proses-halal" class="hover:text-jhc-orange" onclick={closeMenu}>Proses Halal</a>

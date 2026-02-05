@@ -15,12 +15,6 @@
           alt="Kegiatan"
           class="w-full h-auto drop-shadow-lg drop-shadow-jhc-light"
         />
-        <div class="text-sm">
-          <p>Jayakarta Halal Center (JHC) diresmikan secara langsung oleh 
-            <span class="italic font-semibold">Prof. H Anies Rasyid Baswedan SE, MPP, Ph.D</span> 
-            pada tanggal 04 Januari 2025 di Gedung Pusat Dakwah Hidayatullah, 
-            Jakarta Timur DKI Jakarta.</p>
-        </div>
       </div>
     </div>
   </div>
