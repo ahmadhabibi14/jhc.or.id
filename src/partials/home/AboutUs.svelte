@@ -33,19 +33,19 @@
         </div>
       </div>
       <div class="md:shadow-md rounded-xl md:p-5 md:grid md:grid-cols-2 md:grid-rows-2 flex flex-col w-full md:h-80 gap-5 border border-gray-100">
-        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border border-jhc-2 rounded-xl bg-jhc-light/50 text-jhc-2">
+        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-2 bg-jhc text-white">
           <span class="font-bold text-3xl">100+</span>
           <span>DAPUR BERSERTIFIKAT</span>
         </div>
-        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border border-gray-300 rounded-xl bg-white">
-          <span class="font-bold text-3xl text-jhc-orange">99%</span>
+        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-orange/70 bg-jhc-orange text-white">
+          <span class="font-bold text-3xl">99%</span>
           <span>TINGKAT KELULUSAN</span>
         </div>
-        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border border-purple-400 rounded-xl bg-purple-400/20 text-purple-600">
+        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-2 bg-jhc md:border-jhc-orange/70 md:bg-jhc-orange text-white">
           <span class="font-bold text-3xl">0</span>
           <span>REVISI MAYOR</span>
         </div>
-        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border border-gray-400 rounded-xl bg-gray-400/20 text-gray-600">
+        <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-orange/70 bg-jhc-orange md:border-jhc-2 md:bg-jhc text-white">
           <span class="font-bold text-3xl">24/7</span>
           <span>SUPPORT TIM</span>
         </div>

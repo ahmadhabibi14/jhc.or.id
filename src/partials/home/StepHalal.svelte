@@ -1,5 +1,6 @@
-<section class="container max-w-6xl mx-auto my-16 md:px-0 px-5" id="proses-halal">
-  <div class="md:grid md:grid-cols-[60%_1fr] gap-7 flex flex-col-reverse">
+<section class="container max-w-6xl mx-auto md:my-16 my-8 md:px-0 px-5 flex flex-col gap-7" id="proses-halal">
+  <h3 class="font-semibold text-jhc text-4xl text-center">Proses Sertifikasi Halal</h3>
+  <div class="md:grid md:grid-cols-[55%_1fr] gap-7 flex flex-col">
     <div class="w-fit h-auto">
       <img
         src="/img/infografis-tahapan.png"
@@ -8,20 +9,18 @@
       />
     </div>
     <div class="flex flex-col justify-center items-center md:gap-16 gap-4">
-      <div class="h-fit">
-        <h3 class="hidden md:block text-6xl text-jhc font-medium font-yellowtail">
-          Tahapan <br> Sertifikasi <br> Halal
-        </h3>
-        <h3 class="block md:hidden text-3xl text-center text-jhc font-medium font-yellowtail">
-          Tahapan Sertifikasi Halal
-        </h3>
-      </div>
-      <div class="h-fit flex flex-row justify-end">
+      <div class="flex flex-col gap-10 items-center justify-center">
         <img
-          src="/img/biaya-terjangkau.png"
-          alt="Biaya"
-          class="md:w-50 w-30 h-auto"
+          src="/img/pict-step-halal.png"
+          alt="Kegiatan"
+          class="w-full h-auto drop-shadow-lg drop-shadow-jhc-light"
         />
+        <div class="text-sm">
+          <p>Jayakarta Halal Center (JHC) diresmikan secara langsung oleh 
+            <span class="italic font-semibold">Prof. H Anies Rasyid Baswedan SE, MPP, Ph.D</span> 
+            pada tanggal 04 Januari 2025 di Gedung Pusat Dakwah Hidayatullah, 
+            Jakarta Timur DKI Jakarta.</p>
+        </div>
       </div>
     </div>
   </div>

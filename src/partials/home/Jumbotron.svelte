@@ -11,7 +11,7 @@
           <img
             src="/icons/duo-quotes.svg"
             alt="Quotes"
-            class="absolute -left-[16%] top-10 w-24 h-auto md:block hidden"
+            class="absolute -left-[13%] top-13 md:w-16 lg:w-18 h-auto lg:block hidden"
           />
           <div class="w-fit h-fit py-1 px-3 text-jhc flex flex-row gap-2 items-center justify-center bg-white rounded-full">
             <Icon
@@ -32,13 +32,12 @@
             </a>
           </div>
         </div>
-        <div class="w-full md:w-96 h-auto">
-          <img
-            src="/img/hero.png"
-            alt="Hero"
-            class="w-auto h-auto"
-          />
-        </div>
+        <img
+          src="/img/hero.png"
+          alt="Hero"
+          class="w-full md:w-96 h-auto"
+          fetchpriority="high"
+        />
       </div>
     </div>
   </div>

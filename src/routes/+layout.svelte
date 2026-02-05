@@ -8,7 +8,6 @@
 	import { browser } from '$app/environment';
 	import { UNDER_CONSTRUCTION } from '@/states/setting';
 	import Head from '@/partials/Head.svelte';
-	import '@fontsource/yellowtail';
 	import '@fontsource/poppins/100.css';
 	import '@fontsource/poppins/200.css';
 	import '@fontsource/poppins/300.css';

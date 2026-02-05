@@ -3,8 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'Helvetica', 'Arial', 'sans-serif'],
-        yellowtail: ['Yellowtail', 'cursive']
+        poppins: ['Poppins', 'Helvetica', 'Arial', 'sans-serif']
       },
     },
   },

@@ -9,7 +9,11 @@
 </script>
 
 <div class="flex flex-row items-start gap-3">
-  <button class="cursor-pointer mt-1" onclick={() => isShowDesc = !isShowDesc}>
+  <button
+    class="cursor-pointer mt-1"
+    onclick={() => isShowDesc = !isShowDesc}
+    aria-label="Toggle Description"
+  >
     <Icon
       src={isShowDesc ?  FiMinusSquare : FiPlusSquare}
       size="18"

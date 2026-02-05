@@ -11,9 +11,6 @@ importers:
       '@fontsource/poppins':
         specifier: ^5.2.7
         version: 5.2.7
-      '@fontsource/yellowtail':
-        specifier: ^5.2.8
-        version: 5.2.8
       nprogress:
         specifier: ^0.2.0
         version: 0.2.0
@@ -489,9 +486,6 @@ packages:
 
   '@fontsource/poppins@5.2.7':
     resolution: {integrity: sha512-6uQyPmseo4FgI97WIhA4yWRlNaoLk4vSDK/PyRwdqqZb5zAEuc+Kunt8JTMcsHYUEGYBtN15SNkMajMdqUSUmg==}
-
-  '@fontsource/yellowtail@5.2.8':
-    resolution: {integrity: sha512-UjAxWjmDOui7kX2mlctdAL/xPjbuk7YVbWzwFYek6Gz3Jy4S7hYh7w2gSTVhBVCDYwjKfMyLvv0HowzJEByx9A==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2016,8 +2010,6 @@ snapshots:
       levn: 0.4.1
 
   '@fontsource/poppins@5.2.7': {}
-
-  '@fontsource/yellowtail@5.2.8': {}
 
   '@humanfs/core@0.19.1': {}
 

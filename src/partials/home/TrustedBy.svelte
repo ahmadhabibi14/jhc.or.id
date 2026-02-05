@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="bpjhp-container md:rounded-2xl flex justify-center items-center md:h-[300px] w-full h-auto">
+      <div class="bpjhp-container md:rounded-2xl flex justify-center items-center md:h-[200px] lg:h-[300px] w-full h-auto">
         <img
           src="/img/cert-bpjph.png"
           alt="BPJHP"

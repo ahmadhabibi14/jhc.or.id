@@ -1,6 +1,7 @@
 <script lang="ts">
   import Head from "@/partials/Head.svelte";
 	import AboutUs from "@/partials/home/AboutUs.svelte";
+	import Benefit from "@/partials/home/Benefit.svelte";
 	import Contact from "@/partials/home/Contact.svelte";
 	import CorporateValue from "@/partials/home/CorporateValue.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
@@ -22,5 +23,6 @@
   <TrustedBy />
   <Services />
   <StepHalal />
+  <Benefit />
   <Contact />
 </div>
