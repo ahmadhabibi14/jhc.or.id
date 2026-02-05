@@ -8,7 +8,7 @@ export const load: LayoutServerLoad = async (event: ServerLoadEvent) => {
     'Referrer-Policy': 'strict-origin-when-cross-origin',
     'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), fullscreen=(), usb=(), autoplay=()',
     'Content-Security-Policy': "default-src 'self'; " +
-      "script-src 'self' 'strict-dynamic'; " +
+      "script-src 'self' 'unsafe-inline'; " +
       "style-src 'self' 'unsafe-inline'; " +
       "font-src 'self'; " +
       "img-src 'self' data: ; " +
