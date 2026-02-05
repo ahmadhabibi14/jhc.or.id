@@ -5,7 +5,7 @@
 
 <section role="banner" id="jumbotron">
   <div class="w-full z-1 bg-jhc-light flex">
-    <div class="container max-w-6xl mx-auto pt-10 pb-6 md:pb-0">
+    <div class="container max-w-6xl mx-auto pt-10 md:pt-20 pb-6 md:pb-0">
       <div class="flex flex-col-reverse md:grid md:grid-cols-[1fr_auto] gap-10 items-center h-full px-6 md:px-0">
         <div class="flex flex-col gap-4 relative">
           <img
