@@ -54,22 +54,28 @@
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": ["Organization"],
+			"@type": "Organization",
 			"@id": "https://jhc.or.id/#organization",
 			"name": "Jayakarta Halal Center",
+			"alternateName": "JHC",
 			"url": "https://jhc.or.id",
-			"description": "Jasa Konsultan dan Sertifikasi Halal Resmi & Terpercaya. Berfokus pada pendampingan, edukasi, dan penguatan ekosistem halal di Indonesia.",
+			"logo": "https://jhc.or.id/icons/main-logo.svg",
 			"image": "https://jhc.or.id/img/preview.png",
-			"telephone": "+6281322482220",
+			"description": "Jasa Konsultan dan Sertifikasi Halal Resmi & Terpercaya. Berfokus pada pendampingan, edukasi, dan penguatan ekosistem halal di Indonesia.",
+			"telephone": "+62-813-2248-2220",
 			"priceRange": "$$",
 			"address": {
 				"@type": "PostalAddress",
-				"streetAddress": "Jl. Assyafi'iyah No.247, RT.3/RW.5, Cilangkap, Kec. Cipayung, Jakarta Timur, DKI Jakarta. 13870",
-				"addressLocality": "Cipayung",
-				"addressSubregion": "Jakarta Timur",
+				"streetAddress": "Jl. Assyafi'iyah No.247, RT.3/RW.5, Cilangkap, Kec. Cipayung",
+				"addressLocality": "Jakarta Timur",
 				"addressRegion": "DKI Jakarta",
 				"postalCode": "13870",
 				"addressCountry": "ID"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": -6.333851,
+				"longitude": 106.902487
 			},
 			"openingHoursSpecification": [
 				{
@@ -87,15 +93,17 @@
 					"closes": "21:00"
 				}
 			],
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+62-813-2248-2220",
+				"contactType": "customer service",
+				"areaServed": "ID",
+				"availableLanguage": ["id", "en"]
+			},
 			"sameAs": ["https://www.instagram.com/jayakartahalalcenter", "https://wa.me/6281322482220"],
 			"areaServed": {
-				"@type": "AdministrativeArea",
-				"name": "Jakarta"
-			},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": "-6.333851",
-				"longitude": "106.902487"
+				"@type": "Country",
+				"name": "Indonesia"
 			}
 		}
 	</script>
