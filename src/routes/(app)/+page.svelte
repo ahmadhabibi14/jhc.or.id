@@ -5,6 +5,7 @@
 	import Contact from "@/partials/home/Contact.svelte";
 	import CorporateValue from "@/partials/home/CorporateValue.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
+	import Partners from "@/partials/home/Partners.svelte";
 	import Services from "@/partials/home/Services.svelte";
 	import StepHalal from "@/partials/home/StepHalal.svelte";
 	import TrustedBy from "@/partials/home/TrustedBy.svelte";
@@ -24,5 +25,6 @@
   <Services />
   <StepHalal />
   <Benefit />
+  <Partners />
   <Contact />
 </div>
