@@ -41,7 +41,7 @@
             <div class="w-full h-1 border-dashed border-t border-jhc-orange"></div>
             <div class="flex flex-col justify-end gap-0 items-end">
               <span class="text-sm font-semibold">{t.name}</span>
-              <span class="text-xs">{t.role}</span>
+              <p class="text-xs text-end">{t.role}</p>
             </div>
           </div>
         </div>
