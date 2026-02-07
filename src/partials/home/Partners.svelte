@@ -52,17 +52,55 @@
       <span class="text-jhc-orange text-xl font-medium">Mitra Kami</span>
       <h3 class="text-jhc font-semibold text-4xl">Bersama Membangun Ekosistem Halal</h3>
     </div>
-    <div class="flex flex-wrap gap-6 md:gap-8 lg:gap-10 justify-center items-center">
-      {#each partners as p}
-        <div class="h-[120px] w-auto">
+    <div class="partners-wrapper h-[120px] group">
+      {#each partners as prt, idx}
+        <div
+          style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);"
+          class="group-hover:[animation-play-state:paused] h-[120px] py-5 px-auto partner-item cursor-pointer flex justify-center items-center bg-white rounded-md"
+          title={prt.name}
+        >
           <img
-            src={p.image}
-            alt={p.name}
-            title={p.name}
-            class="object-cover w-full h-full cursor-pointer"
+            src={prt.image}
+            alt=""
+            class="w-auto h-full"
           />
         </div>
       {/each}
     </div>
   </div>
 </section>
+
+<style lang="postcss">
+  @reference "tailwindcss";
+
+  .partners-wrapper {
+    width: 100%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+
+  @keyframes scrollLeftPartner {
+    to {
+      left: -200px;
+    }
+  }
+
+  .partner-item {
+    width: 200px;
+    position: absolute;
+    left: max(calc(170px * 6), 100%);
+    animation-name: scrollLeftPartner;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+</style>

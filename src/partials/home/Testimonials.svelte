@@ -6,51 +6,21 @@
 }[] = [
   {
     content:
-      "Proses sertifikasi halal berjalan sangat jelas dan terarah. Timnya responsif, membantu dari tahap awal hingga sertifikat diterbitkan tanpa ribet.",
-    name: "Ahmad Fauzi",
-    role: "Owner UMKM Kuliner"
+      "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
+    name: "MICHAEL TAN",
+    role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
   },
   {
     content:
-      "Pendampingan yang diberikan sangat profesional. Kami jadi lebih paham standar halal dan implementasinya di proses produksi.",
-    name: "Siti Aisyah",
-    role: "Quality Assurance Manager"
+      "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
+    name: "RINDITYA",
+    role: "Owner Katering Bandung, Jawa Barat"
   },
   {
     content:
-      "Layanannya cepat dan transparan. Setiap tahapan dijelaskan dengan bahasa yang mudah dipahami, sangat membantu bagi pelaku usaha.",
-    name: "Rizky Pratama",
-    role: "Founder Startup F&B"
-  },
-  {
-    content:
-      "Kami merasa terbantu dengan adanya konsultasi halal yang komprehensif, terutama dalam menyiapkan dokumen dan audit internal.",
-    name: "Nurhaliza Putri",
-    role: "Head of Operations"
-  },
-  {
-    content:
-      "Tim konsultan sangat komunikatif dan solutif. Sertifikasi halal yang awalnya terasa rumit jadi jauh lebih mudah.",
-    name: "Muhammad Iqbal",
-    role: "Direktur Produksi"
-  },
-  {
-    content:
-      "Pelayanan yang diberikan sesuai standar dan tepat waktu. Sangat cocok untuk perusahaan yang ingin memastikan kepatuhan halal secara menyeluruh.",
-    name: "Dewi Lestari",
-    role: "Compliance Officer"
-  },
-  {
-    content:
-      "Pendampingan dilakukan secara detail dan berkelanjutan. Tidak hanya sertifikasi, tapi juga edukasi halal bagi tim kami.",
-    name: "Hendra Wijaya",
-    role: "Manajer Pabrik"
-  },
-  {
-    content:
-      "Pengalaman kami sangat positif. Prosesnya efisien, komunikasinya jelas, dan hasilnya sesuai harapan.",
-    name: "Fitri Ramadhani",
-    role: "Pemilik Usaha Makanan Olahan"
+      "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
+    name: "JIHAD",
+    role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
   }
 ];
 </script>
@@ -63,14 +33,16 @@
     </div>
     <div class="grid md:grid-cols-3 gap-4">
       {#each testimonials as t}
-        <div class="flex flex-col gap-2 shadow-md rounded-xl border border-gray-200 py-4 px-5">
+        <div class="flex flex-col gap-2 shadow-md rounded-xl border border-gray-200 py-4 px-5 h-auto justify-between">
           <blockquote class="text-lg italic font-medium leading-6 pb-2">
             {t.content}
           </blockquote>
-          <div class="w-full h-1 border-dashed border-t border-jhc-orange"></div>
-          <div class="flex flex-col justify-end gap-0 items-end">
-            <span class="text-sm font-semibold">{t.name}</span>
-            <span class="text-xs">{t.role}</span>
+          <div class="flex flex-col gap-4">
+            <div class="w-full h-1 border-dashed border-t border-jhc-orange"></div>
+            <div class="flex flex-col justify-end gap-0 items-end">
+              <span class="text-sm font-semibold">{t.name}</span>
+              <span class="text-xs">{t.role}</span>
+            </div>
           </div>
         </div>
       {/each}

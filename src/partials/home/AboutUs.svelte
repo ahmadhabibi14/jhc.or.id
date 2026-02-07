@@ -35,7 +35,7 @@
       <div class="md:shadow-md rounded-xl md:p-5 md:grid md:grid-cols-2 md:grid-rows-2 flex flex-col w-full md:h-80 gap-5 border border-gray-100">
         <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-2 bg-jhc text-white">
           <span class="font-bold text-3xl">100+</span>
-          <span>DAPUR BERSERTIFIKAT</span>
+          <span>MITRA PELAKU USAHA</span>
         </div>
         <div class="py-3 md:py-auto flex flex-col gap-3 justify-center items-center w-full h-auto border rounded-xl border-jhc-orange/70 bg-jhc-orange text-white">
           <span class="font-bold text-3xl">99%</span>

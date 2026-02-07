@@ -24,7 +24,7 @@
     },
     {
       icon: RiDocumentFileEditLine,
-      content: 'Penyusunan SJPH manual'
+      content: 'Penyusunan Manual SJPH'
     },
     {
       icon: RiDocumentFolderChartLine,

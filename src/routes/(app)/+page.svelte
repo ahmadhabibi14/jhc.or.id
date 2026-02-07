@@ -4,6 +4,7 @@
 	import Benefit from "@/partials/home/Benefit.svelte";
 	import Contact from "@/partials/home/Contact.svelte";
 	import CorporateValue from "@/partials/home/CorporateValue.svelte";
+	import IndustryUsage from "@/partials/home/IndustryUsage.svelte";
 	import Jumbotron from "@/partials/home/Jumbotron.svelte";
 	import Partners from "@/partials/home/Partners.svelte";
 	import Services from "@/partials/home/Services.svelte";
@@ -23,6 +24,7 @@
   <VisiMisi />
   <CorporateValue />
   <TrustedBy />
+  <IndustryUsage />
   <Services />
   <StepHalal />
   <Benefit />
