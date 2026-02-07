@@ -8,6 +8,7 @@
 	import Partners from "@/partials/home/Partners.svelte";
 	import Services from "@/partials/home/Services.svelte";
 	import StepHalal from "@/partials/home/StepHalal.svelte";
+	import Testimonials from "@/partials/home/Testimonials.svelte";
 	import TrustedBy from "@/partials/home/TrustedBy.svelte";
 	import VisiMisi from "@/partials/home/VisiMisi.svelte";
 </script>
@@ -25,6 +26,7 @@
   <Services />
   <StepHalal />
   <Benefit />
+  <Testimonials />
   <Partners />
   <Contact />
 </div>
