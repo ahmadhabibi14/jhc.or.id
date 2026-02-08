@@ -11,7 +11,7 @@
           <img
             src="/icons/duo-quotes.svg"
             alt="Quotes"
-            class="absolute -left-[13%] top-13 lg:w-14 h-auto lg:block hidden"
+            class="absolute -left-[10%] top-13 lg:w-10 h-auto lg:block hidden"
           />
           <div class="w-fit h-fit py-1 px-3 text-jhc flex flex-row gap-2 items-center justify-center bg-white rounded-full">
             <Icon

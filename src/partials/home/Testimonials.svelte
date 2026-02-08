@@ -23,6 +23,11 @@
         "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
       name: "JIHAD",
       role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
+    },
+    {
+      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
+      name: "MUHAMMAD FAISAL",
+      role: "Ketua LPH Hidayatullah"
     }
   ];
 
@@ -48,7 +53,7 @@
         <div class="flex flex-col gap-4">
           <div class="w-full h-1 border-dashed border-t border-jhc-orange"></div>
           <div class="flex flex-col justify-end gap-0 items-end">
-            <span class="text-sm font-semibold">Muhammad Faisal</span>
+            <span class="text-sm font-semibold">MUHAMMAD FAISAL</span>
             <p class="text-xs text-end">Ketua LPH Hidayatullah</p>
           </div>
         </div>
@@ -58,12 +63,12 @@
       {#each testimonials as t, idx}
         <div
           style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);"
-          class="testimonial-item h-[260px]
+          class="testimonial-item h-[240px] md:h-[260px]
           flex flex-col gap-2 shadow-md rounded-xl border border-gray-200
           py-4 px-5
           justify-between"
         >
-          <blockquote class="italic font-medium leading-6 pb-2">
+          <blockquote class="italic font-medium leading-6 pb-2 line-clamp-6">
             {t.content}
           </blockquote>
           <div class="flex flex-col gap-4">
