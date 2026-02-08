@@ -66,7 +66,7 @@
           class="testimonial-item h-[260px]
           flex flex-col gap-2 shadow-md rounded-xl border border-gray-200
           py-4 px-5 bg-white
-          justify-between
+          justify-between z-10
           group-hover:[animation-play-state:paused]"
         >
           <blockquote class="italic font-medium leading-6 pb-2 line-clamp-6">
