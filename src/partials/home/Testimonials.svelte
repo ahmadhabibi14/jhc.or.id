@@ -28,15 +28,77 @@
       content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
       name: "MUHAMMAD FAISAL",
       role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content:
+        "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
+      name: "MICHAEL TAN",
+      role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
+    },
+    {
+      content:
+        "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
+      name: "RINDITYA",
+      role: "Owner Katering Bandung, Jawa Barat"
+    },
+    {
+      content:
+        "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
+      name: "JIHAD",
+      role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
+    },
+    {
+      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
+      name: "MUHAMMAD FAISAL",
+      role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content:
+        "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
+      name: "MICHAEL TAN",
+      role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
+    },
+    {
+      content:
+        "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
+      name: "RINDITYA",
+      role: "Owner Katering Bandung, Jawa Barat"
+    },
+    {
+      content:
+        "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
+      name: "JIHAD",
+      role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
+    },
+    {
+      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
+      name: "MUHAMMAD FAISAL",
+      role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content:
+        "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
+      name: "MICHAEL TAN",
+      role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
+    },
+    {
+      content:
+        "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
+      name: "RINDITYA",
+      role: "Owner Katering Bandung, Jawa Barat"
+    },
+    {
+      content:
+        "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
+      name: "JIHAD",
+      role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
+    },
+    {
+      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
+      name: "MUHAMMAD FAISAL",
+      role: "Ketua LPH Hidayatullah"
     }
   ];
-
-  onMount(() => {
-    const original = [...testimonials];
-    while (testimonials.length < 10) {
-      testimonials = [...testimonials, ...original.slice(0, 10 - testimonials.length)];
-    }
-  });
 </script>
 
 <section class="container max-w-6xl mx-auto my-16 md:px-5 lg:px-0 px-5" id="testimonials">
