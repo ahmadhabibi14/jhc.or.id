@@ -63,7 +63,7 @@
       role: "Pemilik RPH, Ciampea, Bogor"
     },
 
-    
+
     {
       content:
         "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
@@ -131,14 +131,14 @@
     </div>
     <div class="testimonial-wrapper h-[270px] group">
       {#each testimonials as t, idx}
-        <div style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);"
+        <div style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);
+          group-hover:[animation-play-state:paused]"
         class="testimonial-item">
           <div
             class="h-[260px] w-full
             flex flex-col gap-2 shadow-md rounded-xl border border-gray-200
             py-4 px-5 bg-white
-            justify-between z-10
-            group-hover:[animation-play-state:paused]"
+            justify-between z-10"
           >
             <blockquote class="italic font-medium leading-6 pb-2 line-clamp-6">
               {t.content}
