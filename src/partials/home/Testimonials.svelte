@@ -97,6 +97,11 @@
       content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
       name: "MUHAMMAD FAISAL",
       role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content: "Sertifikat halal bukan hanya kepatuhan regulasi, tetapi lebih daripada itu adalah jaminan proses produksi agar sesuai syariah untuk menghasilkan daging halal. Dengan pendampingan dari JHC yang cepat, tepat dan akurat, kami semakin siap memenuhi kebutuhan pasar nasional bahkan internasional.",
+      name: "Budi Susilo",
+      role: "Pemilik RPH, Ciampea, Bogor"
     }
   ];
 </script>
@@ -106,20 +111,6 @@
     <div class="flex flex-col gap-2 text-center">
       <span class="text-jhc-orange text-xl font-medium">Testimonial</span>
       <h3 class="text-jhc font-semibold text-4xl">Apa Kata Mereka ?</h3>
-    </div>
-    <div class="flex justify-center items-center">
-      <div class="w-full md:w-8/12 flex flex-col gap-2 shadow-md rounded-xl border border-gray-200 py-4 px-5 h-auto justify-between">
-        <blockquote class="text-lg italic font-medium leading-6 pb-2">
-          LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.
-        </blockquote>
-        <div class="flex flex-col gap-4">
-          <div class="w-full h-1 border-dashed border-t border-jhc-orange"></div>
-          <div class="flex flex-col justify-end gap-0 items-end">
-            <span class="text-sm font-semibold">MUHAMMAD FAISAL</span>
-            <p class="text-xs text-end">Ketua LPH Hidayatullah</p>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="testimonial-wrapper h-[270px] group">
       {#each testimonials as t, idx}
