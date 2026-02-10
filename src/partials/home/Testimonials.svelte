@@ -30,27 +30,9 @@
       role: "Ketua LPH Hidayatullah"
     },
     {
-      content:
-        "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
-      name: "MICHAEL TAN",
-      role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
-    },
-    {
-      content:
-        "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
-      name: "RINDITYA",
-      role: "Owner Katering Bandung, Jawa Barat"
-    },
-    {
-      content:
-        "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
-      name: "JIHAD",
-      role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
-    },
-    {
-      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
-      name: "MUHAMMAD FAISAL",
-      role: "Ketua LPH Hidayatullah"
+      content: "Sertifikat halal bukan hanya kepatuhan regulasi, tetapi lebih daripada itu adalah jaminan proses produksi agar sesuai syariah untuk menghasilkan daging halal. Dengan pendampingan dari JHC yang cepat, tepat dan akurat, kami semakin siap memenuhi kebutuhan pasar nasional bahkan internasional.",
+      name: "Budi Susilo",
+      role: "Pemilik RPH, Ciampea, Bogor"
     },
     {
       content:
@@ -74,6 +56,41 @@
       content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
       name: "MUHAMMAD FAISAL",
       role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content: "Sertifikat halal bukan hanya kepatuhan regulasi, tetapi lebih daripada itu adalah jaminan proses produksi agar sesuai syariah untuk menghasilkan daging halal. Dengan pendampingan dari JHC yang cepat, tepat dan akurat, kami semakin siap memenuhi kebutuhan pasar nasional bahkan internasional.",
+      name: "Budi Susilo",
+      role: "Pemilik RPH, Ciampea, Bogor"
+    },
+
+    
+    {
+      content:
+        "Pendampingan sertifikasi halal untuk pabrik parfum kami berjalan cepat, rapi, dan jelas. Kini produk kami lebih siap bersaing di pasar nasional maupun ekspor.",
+      name: "MICHAEL TAN",
+      role: "Owner Pabrik Parfum, Pulo Gadung, Jakarta Timur"
+    },
+    {
+      content:
+        "Awalnya kami merasa pengurusan sertifikat halal itu rumit dan memakan waktu. Namun setelah didampingi, semua jadi lebih mudah dan jelas. Prosesnya cepat, komunikatif, dan sangat membantu kami sebagai pelaku usaha katering.",
+      name: "RINDITYA",
+      role: "Owner Katering Bandung, Jawa Barat"
+    },
+    {
+      content:
+        "Dengan sertifikat halal, kami merasa lebih tenang karena seluruh proses pengolahan makanan di restoran kami sudah sesuai regulasi halal pemerintah. Pendampingannya profesional dan mudah dipahami.",
+      name: "JIHAD",
+      role: "Owner Restoran Timur Tengah, Depok, Jawa Barat"
+    },
+    {
+      content: "LPH Hidayatullah mengapresiasi kerja sama dengan Jayakarta Halal Center yang selama ini menunjukkan profesionalisme dan komitmen dalam mendukung layanan sertifikasi halal. Semoga sinergi ini terus berlanjut untuk memperkuat ekosistem halal yang terpercaya.",
+      name: "MUHAMMAD FAISAL",
+      role: "Ketua LPH Hidayatullah"
+    },
+    {
+      content: "Sertifikat halal bukan hanya kepatuhan regulasi, tetapi lebih daripada itu adalah jaminan proses produksi agar sesuai syariah untuk menghasilkan daging halal. Dengan pendampingan dari JHC yang cepat, tepat dan akurat, kami semakin siap memenuhi kebutuhan pasar nasional bahkan internasional.",
+      name: "Budi Susilo",
+      role: "Pemilik RPH, Ciampea, Bogor"
     },
     {
       content:
