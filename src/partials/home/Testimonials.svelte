@@ -131,9 +131,8 @@
     </div>
     <div class="testimonial-wrapper h-[270px] group">
       {#each testimonials as t, idx}
-        <div style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);
-          group-hover:[animation-play-state:paused]"
-        class="testimonial-item">
+        <div style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);"
+        class="testimonial-item group-hover:[animation-play-state:paused]">
           <div
             class="h-[260px] w-full
             flex flex-col gap-2 shadow-md rounded-xl border border-gray-200
