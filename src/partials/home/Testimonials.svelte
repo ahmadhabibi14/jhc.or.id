@@ -123,7 +123,7 @@
   ];
 </script>
 
-<section class="container max-w-6xl mx-auto my-16 md:px-5 lg:px-0 px-5" id="testimonials">
+<section class="container max-w-6xl mx-auto my-16 md:px-5 lg:px-0 px-5 scroll-mt-20" id="testimonials">
   <div class="flex flex-col gap-7">
     <div class="flex flex-col gap-2 text-center">
       <span class="text-jhc-orange text-xl font-medium">Testimonial</span>

@@ -27,7 +27,7 @@
   ]
 </script>
 
-<section class="container max-w-6xl mx-auto mb-16 mt-10 md:px-0 px-5" id="layanan">
+<section class="container max-w-6xl mx-auto mb-16 mt-10 md:px-0 px-5 scroll-mt-24" id="layanan">
   <div class="flex flex-col gap-7">
     <div class="flex flex-col gap-2 text-center">
       <span class="text-jhc-orange text-xl font-medium">Layanan Kami</span>

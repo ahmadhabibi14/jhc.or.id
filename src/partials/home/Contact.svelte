@@ -35,7 +35,7 @@
   ]
 </script>
 
-<section class="w-full h-auto bg-jhc-2 text-white py-28 relative overflow-hidden md:px-0 px-5" id="kontak">
+<section class="w-full h-auto bg-jhc-2 text-white py-28 relative overflow-hidden md:px-0 px-5 scroll-mt-20" id="kontak">
   <div class="absolute w-full h-full mx-auto flex justify-center items-center -top-10">
     <img
       src="/icons/mosaic-jhc-2.svg"

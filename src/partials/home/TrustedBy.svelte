@@ -13,7 +13,7 @@
   ]
 </script>
 
-<section class="container max-w-6xl mx-auto my-16 md:px-0 px-5" id="dipercaya">
+<section class="container max-w-6xl mx-auto my-16 md:px-0 px-5 scroll-mt-20" id="dipercaya">
   <div class="flex flex-col gap-10">
     <div class="flex flex-col gap-2 text-center justify-center items-center">
       <span class="text-jhc-orange text-xl font-medium">Sertifikasi Resmi Melalui</span>
@@ -33,7 +33,7 @@
               <Icon
                 src={RiSystemCheckboxCircleFill}
                 size="18"
-                className="text-jhc-orange fill-jhc-orange"
+                className="text-jhc-orange fill-jhc-orange shrink-0"
               />
               <p>{feature}</p>
             </div>
