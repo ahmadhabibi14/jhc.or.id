@@ -58,8 +58,10 @@
     </div>
     <div class="partners-wrapper h-[120px] group">
       {#each partners as prt, idx}
+        {@const prLen = partners.length}
         <div
-          style="animation-delay: calc(20s / 6 * (6 - {idx+1}) * -1);"
+          style="animation-delay: calc(30s / {prLen} * ({prLen} - {idx}) * -1);
+                left: max(calc(170px * {prLen}), 100%);"
           class="group-hover:[animation-play-state:paused] h-[120px] py-5 px-auto partner-item cursor-pointer flex justify-center items-center bg-white rounded-md"
           title={prt.name}
         >
@@ -101,9 +103,8 @@
   .partner-item {
     width: 200px;
     position: absolute;
-    left: max(calc(170px * 6), 100%);
     animation-name: scrollLeftPartner;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
