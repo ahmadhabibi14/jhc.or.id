@@ -42,6 +42,10 @@
     {
       name: 'MT Farm',
       image: '/icons/partners/10.png',
+    },
+    {
+      name: 'Bentos',
+      image: '/icons/partners/11.png',
     }
   ]
 </script>
@@ -55,7 +59,7 @@
     <div class="partners-wrapper h-[120px] group">
       {#each partners as prt, idx}
         <div
-          style="animation-delay: calc(50s / 6 * (6 - {idx+1}) * -1);"
+          style="animation-delay: calc(20s / 6 * (6 - {idx+1}) * -1);"
           class="group-hover:[animation-play-state:paused] h-[120px] py-5 px-auto partner-item cursor-pointer flex justify-center items-center bg-white rounded-md"
           title={prt.name}
         >
@@ -99,7 +103,7 @@
     position: absolute;
     left: max(calc(170px * 6), 100%);
     animation-name: scrollLeftPartner;
-    animation-duration: 50s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
